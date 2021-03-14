@@ -15,8 +15,8 @@
  ## Telas
  
  <p align="center">
-<img src="https://github.com/ClodoaldoRibeiro/lojavirtual_app/blob/master/screenshots/Bem%20vindo.png" alt="ClodoaldoRibeiro"/>
-<h5 align="center">Tela 1: Bem Vindo</h5>
+<img src="https://github.com/ClodoaldoRibeiro/responsive1/blob/main/screenshots/ipad-mini.png" alt="ClodoaldoRibeiro"/>
+<h5 align="center">Tela 1: App no IPad Mini</h5>
 </p
 
 <br /> 
@@ -24,8 +24,8 @@
 <br /> 
 
 <p align="center">
-<img src="https://github.com/ClodoaldoRibeiro/lojavirtual_app/blob/master/screenshots/signin.png" alt="ClodoaldoRibeiro"/>
-<h5 align="center">Tela 2: Entrar no Sistema </h5>
+<img src="https://github.com/ClodoaldoRibeiro/responsive1/blob/main/screenshots/ipad.png" alt="ClodoaldoRibeiro"/>
+<h5 align="center">Tela 2: App no iPad </h5>
 </p>
 
 <br /> 
@@ -33,8 +33,8 @@
 <br /> 
 
 <p align="center">
-<img src="https://github.com/ClodoaldoRibeiro/lojavirtual_app/blob/master/screenshots/signup.png" alt="ClodoaldoRibeiro"/>
-<h5 align="center">Tela 3: Cadastrar Usuário </h5>
+<img src="https://github.com/ClodoaldoRibeiro/responsive1/blob/main/screenshots/iphone-se.png" alt="ClodoaldoRibeiro"/>
+<h5 align="center">Tela 3: App no Iphone SE </h5>
 </p>
 
 <br /> 
@@ -42,9 +42,20 @@
 <br /> 
 
 <p align="center">
-<img src="https://github.com/ClodoaldoRibeiro/lojavirtual_app/blob/master/screenshots/draw.png" alt="ClodoaldoRibeiro"/>
-<h5 align="center">Tela 4: Menu da Aplicação </h5>
+<img src="https://github.com/ClodoaldoRibeiro/responsive1/blob/main/screenshots/mac.png" alt="ClodoaldoRibeiro"/>
+<h5 align="center">Tela 4: Rodando no Macbook </h5>
 </p>
+
+br /> 
+<br /> 
+<br /> 
+
+<p align="center">
+<img src="https://github.com/ClodoaldoRibeiro/responsive1/blob/main/screenshots/mobile.png" alt="ClodoaldoRibeiro"/>
+<h5 align="center">Tela 5: Mobile Generico</h5>
+</p>
+
+
 
 
  ## License
