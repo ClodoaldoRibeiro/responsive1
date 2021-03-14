@@ -3,6 +3,7 @@ import 'package:responsive1/breakpiont.dart';
 import 'package:responsive1/pages/drawe/drawer_mobile.dart';
 import 'package:responsive1/pages/home/widget/app_mobile.dart';
 import 'package:responsive1/pages/home/widget/app_web.dart';
+import 'package:responsive1/pages/home/widget/section/top_section.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -26,7 +27,9 @@ class HomePage extends StatelessWidget {
             child: ConstrainedBox(
               constraints: BoxConstraints(maxWidth: 1100),
               child: ListView(
-                
+                children: [
+                  TopSection(),
+                ],
               )
             ),
           ),
