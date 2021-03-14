@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive1/pages/home/widget/web_app_bar_responsive_container.dart';
 
 class AppWeb extends StatelessWidget {
   @override
@@ -11,7 +12,7 @@ class AppWeb extends StatelessWidget {
         const SizedBox(
           width: 32,
         ),
-        Expanded(child: Container()),
+        WebAppBarResponsiveContainer(),
         IconButton(icon: Icon(Icons.shopping_cart), onPressed: () {}),
         const SizedBox(
           width: 32,
