@@ -1,7 +1,6 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class CourseItem extends StatelessWidget {
   @override
@@ -21,6 +20,7 @@ class CourseItem extends StatelessWidget {
             builder: (context, constraints) {
               return AutoSizeText(
                 "Criação de Apps Android e iOS com Flutter - Crie 16 Apps",
+                minFontSize: 3,
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 15,
