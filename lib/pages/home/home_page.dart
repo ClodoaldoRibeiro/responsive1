@@ -3,6 +3,7 @@ import 'package:responsive1/breakpiont.dart';
 import 'package:responsive1/pages/drawe/drawer_mobile.dart';
 import 'package:responsive1/pages/home/widget/app_mobile.dart';
 import 'package:responsive1/pages/home/widget/app_web.dart';
+import 'package:responsive1/pages/home/widget/section/advantages_section.dart';
 import 'package:responsive1/pages/home/widget/section/top_section.dart';
 
 class HomePage extends StatelessWidget {
@@ -11,6 +12,7 @@ class HomePage extends StatelessWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         return Scaffold(
+          backgroundColor: Colors.black,
           drawer:
               constraints.maxWidth < MOBILE_BREAK_POINT ? DrawerMobile() : null,
           appBar: constraints.maxWidth < MOBILE_BREAK_POINT
@@ -29,6 +31,7 @@ class HomePage extends StatelessWidget {
               child: ListView(
                 children: [
                   TopSection(),
+                  AdvantagesSection(),
                 ],
               )
             ),
