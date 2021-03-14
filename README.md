@@ -4,7 +4,7 @@
 # responsive1
  
  ## Sobre o Projeto
-  UI bonitas e responsivas, conheça a interface construimos para rodar em diferentes dispositivos.
+  UI bonita e responsiva, conheça a interface foi construída para rodar em diferentes dispositivos.
  
  
  ## Tecnologias
