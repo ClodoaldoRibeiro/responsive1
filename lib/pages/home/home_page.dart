@@ -4,6 +4,7 @@ import 'package:responsive1/pages/drawe/drawer_mobile.dart';
 import 'package:responsive1/pages/home/widget/app_mobile.dart';
 import 'package:responsive1/pages/home/widget/app_web.dart';
 import 'package:responsive1/pages/home/widget/section/advantages_section.dart';
+import 'package:responsive1/pages/home/widget/section/courses_section.dart';
 import 'package:responsive1/pages/home/widget/section/top_section.dart';
 
 class HomePage extends StatelessWidget {
@@ -32,6 +33,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   TopSection(),
                   AdvantagesSection(),
+                  CoursesSection(),
                 ],
               )
             ),
