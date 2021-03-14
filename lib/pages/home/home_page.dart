@@ -10,18 +10,27 @@ class HomePage extends StatelessWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         return Scaffold(
-            drawer: constraints.maxWidth < MOBILE_BREAK_POINT
-                ? DrawerMobile()
-                : null,
-            appBar: constraints.maxWidth < MOBILE_BREAK_POINT
-                ? PreferredSize(
-                    child: AppMobile(),
-                    preferredSize: Size(double.infinity, 56),
-                  )
-                : PreferredSize(
-                    child: AppWeb(),
-                    preferredSize: Size(double.infinity, 72),
-                  ));
+          drawer:
+              constraints.maxWidth < MOBILE_BREAK_POINT ? DrawerMobile() : null,
+          appBar: constraints.maxWidth < MOBILE_BREAK_POINT
+              ? PreferredSize(
+                  child: AppMobile(),
+                  preferredSize: Size(double.infinity, 56),
+                )
+              : PreferredSize(
+                  child: AppWeb(),
+                  preferredSize: Size(double.infinity, 72),
+                ),
+          body: Align(
+            alignment: Alignment.topCenter,
+            child: ConstrainedBox(
+              constraints: BoxConstraints(maxWidth: 1100),
+              child: ListView(
+                
+              )
+            ),
+          ),
+        );
       },
     );
   }
